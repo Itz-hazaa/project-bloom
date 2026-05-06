@@ -263,7 +263,7 @@ function AboutPage() {
           <div className="relative order-2 lg:order-1">
             <div className="aspect-[4/5] overflow-hidden rounded-3xl border border-border bg-surface">
               <img
-                src="/founder-hassaan.png"
+                src="./founder-hassaan.png"
                 alt="Founder"
                 className="h-full w-full object-cover object-top"
               />
