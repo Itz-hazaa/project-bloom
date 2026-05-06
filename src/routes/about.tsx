@@ -264,7 +264,7 @@ function AboutPage() {
           <div className="relative order-2 lg:order-1">
             <div className="aspect-[4/5] overflow-hidden rounded-3xl border border-border bg-surface">
               <img src={founderHassaan} alt="Mohammed Hassaan Ali" 
-                className="h-full w-full object-cover object-top"/>
+                 className="h-full w-full object-contain object-center""/>
             </div>
             <div className="absolute -bottom-6 -right-6 rounded-2xl border border-border bg-background p-5 shadow-[var(--shadow-soft)]">
               <div className="font-mono text-[10px] uppercase tracking-wider text-muted-foreground">
