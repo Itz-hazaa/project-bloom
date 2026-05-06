@@ -16,9 +16,11 @@ export const Route = createFileRoute("/contact")({
 });
 
 const contacts = [
-  { icon: Phone, label: "Call us", value: "+91 78420 12006", href: "tel:+917842012006" },
-  { icon: MessageCircle, label: "WhatsApp", value: "+91 78420 12006", href: "https://wa.me/917842012006" },
-  { icon: Mail, label: "Email", value: "weepalairobotics@gmail.com", href: "mailto:weepalairobotics@gmail.com" },
+  { icon: Phone, label: "Call us", value: "+91 6300974920", href: "tel:+917842012006" },
+  { icon: Phone, label: "Call us", value: "+971-582887447", href: "tel:+971-582887447" },
+  { icon: MessageCircle, label: "WhatsApp", value: "+91 6300974920", href: "https://wa.me/916300974920" },
+  { icon: MessageCircle, label: "WhatsApp", value: "+971-582887447", href: "https://wa.me/971582887447" },
+  { icon: Mail, label: "Email", value: "weepalindia@gmail.com", href: "mailto:weepalindia@gmail.com" },
   { icon: MapPin, label: "Visit our lab", value: "16-9-423/c Old Malakpet, Hyderabad" },
 ];
 
