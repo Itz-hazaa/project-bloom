@@ -237,16 +237,11 @@ function AboutPage() {
 
           <div className="relative">
             <div className="aspect-[4/5] overflow-hidden rounded-3xl border border-border bg-surface">
-              <div
-                className="grid h-full w-full place-items-center text-[9rem]"
-                style={{
-                  background:
-                    "radial-gradient(circle at 30% 30%, color-mix(in oklab, var(--color-primary) 18%, transparent), transparent 60%)",
-                }}
-              >
-                {/* TODO: Replace emoji with founder photo */}
-                🧑‍💼
-              </div>
+               <img
+                src="/images/founder.jpg"
+                alt="Founder"
+                className="h-full w-full object-cover object-top"
+              />
             </div>
             <div className="absolute -bottom-6 -left-6 rounded-2xl border border-border bg-background p-5 shadow-[var(--shadow-soft)]">
               <div className="font-mono text-[10px] uppercase tracking-wider text-muted-foreground">
@@ -267,15 +262,11 @@ function AboutPage() {
         <div className="grid gap-16 lg:grid-cols-[1fr_1.1fr] lg:items-center">
           <div className="relative order-2 lg:order-1">
             <div className="aspect-[4/5] overflow-hidden rounded-3xl border border-border bg-surface">
-              <div
-                className="grid h-full w-full place-items-center text-[9rem]"
-                style={{
-                  background:
-                    "radial-gradient(circle at 70% 30%, color-mix(in oklab, var(--color-primary) 18%, transparent), transparent 60%)",
-                }}
-              >
-                👨‍💻
-              </div>
+              <img
+                src="/founder-hassaan.png"
+                alt="Founder"
+                className="h-full w-full object-cover object-top"
+              />
             </div>
             <div className="absolute -bottom-6 -right-6 rounded-2xl border border-border bg-background p-5 shadow-[var(--shadow-soft)]">
               <div className="font-mono text-[10px] uppercase tracking-wider text-muted-foreground">
