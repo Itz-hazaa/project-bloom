@@ -274,7 +274,7 @@ function AboutPage() {
               </div>
               <div className="mt-1 font-display text-lg font-semibold">Mohammed Hassaan Ali</div>
               <div className="mt-1 font-mono text-[10px] uppercase tracking-wider text-primary">
-                NDTV Featured
+                WeePal | TechShala
               </div>
             </div>
           </div>
