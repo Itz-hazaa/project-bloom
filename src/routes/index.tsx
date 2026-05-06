@@ -155,7 +155,7 @@ function Hero() {
             ["500+", "Students taught"],
             ["5+", "Schools reached"],
             ["Cl.5 → Eng.", "Full learning path"],
-            ["NDTV", "Featured founder"],
+            ["10 Yr. Old", "Founder"],
           ].map(([num, label]) => (
             <div key={label} className="bg-background p-6">
               <dt className="font-display text-2xl font-semibold md:text-3xl">{num}</dt>
@@ -215,7 +215,7 @@ function CTABand() {
               Ready when you are
             </div>
             <h2 className="mt-4 font-display text-4xl font-semibold tracking-tight md:text-5xl text-balance">
-              Your child's first robot is one demo class away.
+              Your child's first robot/app is one demo class away.
             </h2>
           </div>
           <Link
