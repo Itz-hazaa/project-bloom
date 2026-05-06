@@ -322,9 +322,9 @@ function AboutPage() {
 
             <blockquote className="mt-8 rounded-2xl border-l-2 border-primary bg-surface px-6 py-5">
               <p className="font-display text-lg italic">"Let your child be the next Hassaan."</p>
-              <footer className="mt-2 font-mono text-[11px] uppercase tracking-wider text-muted-foreground">
+              {/* <footer className="mt-2 font-mono text-[11px] uppercase tracking-wider text-muted-foreground">
                 — Arsheena Rahman, Co-founder
-              </footer>
+              </footer> */}
             </blockquote>
           </div>
         </div>
