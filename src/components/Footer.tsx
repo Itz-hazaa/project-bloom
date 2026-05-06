@@ -46,7 +46,7 @@ export function Footer() {
           <div>
             <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground">Contact</div>
             <ul className="mt-4 space-y-2.5 text-sm">
-              <li><a href="tel:+917842012006" className="hover:text-primary">+91 78420 12006</a></li>
+              <li><a href="tel:+916300974920" className="hover:text-primary">+91 6300974920</a></li>
               <li><a href="tel:+971-582887447" className="hover:text-primary">+971-582887447</a></li>
               <li><a href="mailto:weepalairobotics@gmail.com" className="hover:text-primary break-all">weepalindia@gmail.com</a></li>
               <li><Link to="/contact" className="hover:text-primary">Book a free demo</Link></li>
