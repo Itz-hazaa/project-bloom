@@ -279,7 +279,7 @@ function AboutPage() {
             </div>
             <div className="absolute -bottom-6 -right-6 rounded-2xl border border-border bg-background p-5 shadow-[var(--shadow-soft)]">
               <div className="font-mono text-[10px] uppercase tracking-wider text-muted-foreground">
-                Advisor & Mentor · Age 19
+                Mentor, CEO · Age 19
               </div>
               <div className="mt-1 font-display text-lg font-semibold">Mohammed Hassaan Ali</div>
               <div className="mt-1 font-mono text-[10px] uppercase tracking-wider text-primary">
