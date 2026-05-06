@@ -173,7 +173,7 @@ import { motion } from "framer-motion";
 import { Section, SectionHeader, Eyebrow } from "@/components/Section";
 import { ArrowUpRight, ArrowRight } from "lucide-react";
 import founderHassaan from "./founder-hassaan.png";
-
+import founderKhaliq from "./WhatsApp Image 2026-05-07 at 3.44.39 AM.jpeg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
@@ -238,11 +238,9 @@ function AboutPage() {
 
           <div className="relative">
             <div className="aspect-[4/5] overflow-hidden rounded-3xl border border-border bg-surface">
-               <img
-                src="/images/founder.jpg"
-                alt="Founder"
-                className="h-full w-full object-cover object-top"
-              />
+               <img src={founderKhaliq} alt="Mohammed Abdul Khaliq" 
+                 className="h-full w-full object-contain object-center"/>
+            </div>
             </div>
             <div className="absolute -bottom-6 -left-6 rounded-2xl border border-border bg-background p-5 shadow-[var(--shadow-soft)]">
               <div className="font-mono text-[10px] uppercase tracking-wider text-muted-foreground">
