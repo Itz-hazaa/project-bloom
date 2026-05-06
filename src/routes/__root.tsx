@@ -9,6 +9,10 @@ import {
 } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
+import { RegionProvider } from "@/lib/region";
+import { RegionBar } from "@/components/RegionBar";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
 function NotFoundComponent() {
   return (
@@ -72,19 +76,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "WEE PAL — AI & Robotics Education for Class 5 to Engineering" },
+      { name: "description", content: "Hyderabad's hands-on AI & Robotics school. Arduino, Python, ML and humanoid robotics for students Class 5 through engineering. Free demo class." },
+      { name: "author", content: "WEE PAL" },
+      { property: "og:title", content: "WEE PAL — AI & Robotics Education" },
+      { property: "og:description", content: "Hyderabad's hands-on AI & Robotics school for Class 5 to engineering. Free demo class." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
+      { rel: "stylesheet", href: appCss },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "" },
       {
         rel: "stylesheet",
-        href: appCss,
+        href: "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap",
       },
     ],
   }),
@@ -113,7 +120,14 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <Outlet />
+      <RegionProvider>
+        <RegionBar />
+        <Header />
+        <main>
+          <Outlet />
+        </main>
+        <Footer />
+      </RegionProvider>
     </QueryClientProvider>
   );
 }
