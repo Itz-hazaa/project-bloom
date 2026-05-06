@@ -173,7 +173,7 @@ import { motion } from "framer-motion";
 import { Section, SectionHeader, Eyebrow } from "@/components/Section";
 import { ArrowUpRight, ArrowRight } from "lucide-react";
 import founderHassaan from "./founder-hassaan.png";
-import founderKhaliq from "./WhatsApp Image 2026-05-07 at 3.44.39 AM.jpeg";
+import founderKhaliq from "./Founder.jpeg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
