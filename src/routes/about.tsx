@@ -172,6 +172,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { Section, SectionHeader, Eyebrow } from "@/components/Section";
 import { ArrowUpRight, ArrowRight } from "lucide-react";
+import founderHassaan from "./founder-hassaan.png";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -262,11 +263,8 @@ function AboutPage() {
         <div className="grid gap-16 lg:grid-cols-[1fr_1.1fr] lg:items-center">
           <div className="relative order-2 lg:order-1">
             <div className="aspect-[4/5] overflow-hidden rounded-3xl border border-border bg-surface">
-              <img
-                src="./founder-hassaan.png"
-                alt="Founder"
-                className="h-full w-full object-cover object-top"
-              />
+              <img src={founderHassaan} alt="Mohammed Hassaan Ali" 
+                className="h-full w-full object-cover object-top"/>
             </div>
             <div className="absolute -bottom-6 -right-6 rounded-2xl border border-border bg-background p-5 shadow-[var(--shadow-soft)]">
               <div className="font-mono text-[10px] uppercase tracking-wider text-muted-foreground">
