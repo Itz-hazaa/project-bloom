@@ -198,7 +198,7 @@ function ContactPage() {
           </p>
 
           <div className="mt-10 space-y-3">
-            {contacts.map((c) => {
+            {(region === "intl" ? intlContacts : indiaContacts).map((c) => {
               const inner = (
                 <div className="group flex items-center gap-4 rounded-2xl border border-border bg-card p-5 transition hover:border-foreground">
                   <div className="grid h-11 w-11 place-items-center rounded-xl bg-foreground text-background">
@@ -213,11 +213,11 @@ function ContactPage() {
                 </div>
               );
               return c.href ? (
-                <a key={c.value} href={c.href} target={c.href.startsWith("http") ? "_blank" : undefined} rel="noreferrer">
+                <a key={`${region}-${c.value}`} href={c.href} target={c.href.startsWith("http") ? "_blank" : undefined} rel="noreferrer">
                   {inner}
                 </a>
               ) : (
-                <div key={c.value}>{inner}</div>
+                <div key={`${region}-${c.value}`}>{inner}</div>
               );
             })}
           </div>
