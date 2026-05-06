@@ -20,7 +20,7 @@ const programs = [
   {
     emoji: "🌱",
     age: "Class 5–7 · Beginner",
-    name: "AI & Robotics Foundations",
+    name: "Robotics Foundations",
     sub: "Building curiosity & logic",
     desc: "Visual coding, sensors, simple circuits. A joyful first encounter with robotics.",
     india: "₹2,999",
@@ -56,7 +56,7 @@ const programs = [
     name: "Industry-Ready AI Track",
     sub: "Data Science · CV · NLP",
     desc: "Turn your degree into a career. Real industry projects build a hireable portfolio.",
-    india: "₹6,999",
+    india: "₹7,999",
     intl: "$119",
     tags: ["Data Science", "Computer Vision", "Industry projects"],
     featured: false,
