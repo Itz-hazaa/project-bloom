@@ -7,7 +7,7 @@ import { Ticker } from "@/components/Ticker";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "WeePal School in Hyderabad" },
+      { title: "WeePal" },
       {
         name: "description",
         content:
