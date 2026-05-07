@@ -6,6 +6,9 @@ import { Ticker } from "@/components/Ticker";
 
 export const Route = createFileRoute("/")({
   head: () => ({
+      links: [
+    { rel: "icon", href: "data:," },
+  ],
     meta: [
       { title: "WeePal" },
       {
