@@ -7,14 +7,14 @@ import { Ticker } from "@/components/Ticker";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "WEE PAL — AI & Robotics School in Hyderabad" },
+      { title: "WeePal School in Hyderabad" },
       {
         name: "description",
         content:
-          "Hands-on AI & Robotics education for Class 5 to engineering. Arduino, Python, ML, humanoid robotics. Free demo class in Hyderabad.",
+          "Live online tuition for Classes 4–10. Small batches, expert teachers, and weekly WhatsApp progress reports. Free trial class — no payment needed.",
       },
-      { property: "og:title", content: "WEE PAL — Where young minds master AI & build robots" },
-      { property: "og:description", content: "Hyderabad's hands-on AI & Robotics school. Free demo." },
+      { property: "og:title", content: "WeePal Where young minds master Learning" },
+      { property: "og:description", content: "Indian and International students. Free demo." },
     ],
     scripts: [
       {
@@ -22,16 +22,16 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "EducationalOrganization",
-          name: "WEE PAL",
-          description: "AI & Robotics education for Class 5 through engineering students.",
+          name: "WeePal",
+          description: "Live online tuition for Classes 4–10. Small batches, expert teachers, and weekly WhatsApp progress reports. Free trial class — no payment needed.",
           address: {
             "@type": "PostalAddress",
-            streetAddress: "16-9-423/c Old Malakpet, Near Khairunnisa Masjid",
             addressLocality: "Hyderabad",
-            addressCountry: "IN",
+            addressLocality: "VILLA NO 45, BANIYAS EAST 7TH, ABU DHABI",
+            addressCountry: "U. A. E",
           },
           telephone: "+91-78420-12006",
-          email: "weepalairobotics@gmail.com",
+          email: "weepalindia@gmail.com",
         }),
       },
     ],
