@@ -14,10 +14,12 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Live online tuition for Classes 4–10. Small batches, expert teachers, and weekly WhatsApp progress reports. Free trial class — no payment needed.",
+          "Live online tuition for Classes 4–10. Small batches, expert teachers, and weekly WhatsApp progress reports. Free trial class",
       },
       { property: "og:title", content: "WeePal Where young minds master Learning" },
       { property: "og:description", content: "Indian and International students. Free demo." },
+      { property: "og:image", content: "https://www.weepal.in/og-image.png" },
+      { property: "og:url", content: "https://www.weepal.in" },
     ],
     scripts: [
       {
